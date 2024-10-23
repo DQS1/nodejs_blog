@@ -4,7 +4,7 @@
   "main": "src/index.mjs",
   "scripts": {
     "start": "nodemon --inspect src/index.mjs",
-    "watch": "node-sass --watch src/resources/views/scss/**/*.scss --output src/public/css/app.css",
+    "watch": "node-sass --watch src/resources/views/scss --output src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
